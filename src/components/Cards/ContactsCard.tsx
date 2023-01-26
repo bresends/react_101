@@ -6,7 +6,7 @@ interface ContactsCardProps {
 
 const ContactsCard: FC<ContactsCardProps> = () => {
   return (
-    <div className='g'>
+    <div className="g">
       <h1>ContactsCard</h1>
     </div>
   );
