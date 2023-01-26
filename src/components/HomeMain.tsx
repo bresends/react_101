@@ -17,9 +17,9 @@ export function HomeMain() {
       </div>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <Card
-          description="Voluptates harum aliquam totam, doloribus eum impedit atque!
-              Temporibus..."
-          title="De fuga fugiat lorem ispum laboriosam expedita."
+          title="Lembretes de Aniversário."
+          description="Projeto de lembretes de aniversário, com cadastro de aniversariantes e
+              e notificação dos aniversariantes do dia."
           link="/1"
           image="https://images.unsplash.com/photo-1661749711934-492cd19a25c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"
         />

@@ -27,7 +27,12 @@ export const Card: FC<CardProps> = ({ title, description, image, link }) => {
             {title}
           </h3>
           <p className="mt-6 mb-8 text-gray-600">{description}</p>
-          <span className="text-primary">Read more</span>
+          <button
+            type="button"
+            className="inline-block px-6 py-2.5 font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg hover:text-white focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+          >
+            Detalhes
+          </button>
         </div>
       </Link>
     </div>
