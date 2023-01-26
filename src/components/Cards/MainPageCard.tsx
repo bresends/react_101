@@ -8,7 +8,12 @@ interface CardProps {
   link: string;
 }
 
-export const Card: FC<CardProps> = ({ title, description, image, link }) => {
+export const MainPageCard: FC<CardProps> = ({
+  title,
+  description,
+  image,
+  link,
+}) => {
   return (
     <div className="group rounded-3xl border border-gray-100 bg-white bg-opacity-50 p-6  shadow-2xl shadow-gray-600/10 sm:p-8">
       <Link to={link}>
